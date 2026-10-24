@@ -1,0 +1,62 @@
+[
+    {
+        "image_a": {
+            "image": "web_images/ambulance.png",
+            "word": "L'ambulance"
+        },
+        "image_b": {
+            "image": "web_images/ambulance%20cursif2.png",
+            "word": "L'ambulance"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/bus%20scolaire.png",
+            "word": "Le bus scolaire"
+        },
+        "image_b": {
+            "image": "web_images/bus%20scolaire%20cursif2.png",
+            "word": "Le bus scolaire"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/camion%20de%20pompiers.png",
+            "word": "Le camion de pompier"
+        },
+        "image_b": {
+            "image": "web_images/camion%20de%20pompier%20cursif2.png",
+            "word": "Le camion de pompier"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/camion%20poubelle.png",
+            "word": "Le camion poubelle"
+        },
+        "image_b": {
+            "image": "web_images/camion%20poubelle%20cursif2.png",
+            "word": "Le camion poubelle"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/voiture%20de%20course.png",
+            "word": "La voiture de course"
+        },
+        "image_b": {
+            "image": "web_images/voiture%20de%20course%20cursif2.png",
+            "word": "La voiture de course"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/voiture%20de%20police.png",
+            "word": "La voiture de police"
+        },
+        "image_b": {
+            "image": "web_images/voiture%20de%20police%20cursif2.png",
+            "word": "La voiture de police"
+        }
+    }
+]

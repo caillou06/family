@@ -1,0 +1,62 @@
+[
+    {
+        "image_a": {
+            "image": "web_images/Am%C3%A9lie/Am%C3%A9lie.jpg",
+            "word": "Amélie"
+        },
+        "image_b": {
+            "image": "web_images/Am%C3%A9lie/Am%C3%A9liecursive2.png",
+            "word": "Amélie"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/Am%C3%A9lie/la%20bou%C3%A9e.jpg",
+            "word": "La bouée"
+        },
+        "image_b": {
+            "image": "web_images/Am%C3%A9lie/boueecursive2.png",
+            "word": "La bouée"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/Am%C3%A9lie/la%20mer.jpg",
+            "word": "La mer"
+        },
+        "image_b": {
+            "image": "web_images/Am%C3%A9lie/mercursive2.png",
+            "word": "La mer"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/Am%C3%A9lie/le%20bocal.jpg",
+            "word": "Le bocal"
+        },
+        "image_b": {
+            "image": "web_images/Am%C3%A9lie/bocalcursive2.png",
+            "word": "Le bocal"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/Am%C3%A9lie/le%20canard.jpg",
+            "word": "Le canard"
+        },
+        "image_b": {
+            "image": "web_images/Am%C3%A9lie/canardcursive2.png",
+            "word": "Le canard"
+        }
+    },
+    {
+        "image_a": {
+            "image": "web_images/Am%C3%A9lie/le%20poisson.jpg",
+            "word": "Le poisson"
+        },
+        "image_b": {
+            "image": "web_images/Am%C3%A9lie/poissoncursive2.png",
+            "word": "Le poisson"
+        }
+    }
+]

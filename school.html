@@ -1,0 +1,204 @@
+<div class="main">
+
+	<div id="letter-shuffle">
+		<div id="choose-word" class="btn btn-primary">{{letterTitle}}</div>
+		<!--input id="text"/-->
+
+		<div class="letter_container">
+
+			<div class="letter-title">{{letterModelTitle}}</div>
+			<div ng-repeat="c in letters" class="letter" id="{{c.id}}">
+				{{c.title}}
+			</div>
+		</div>
+
+		<div id="destination" class="letter_container">
+			<div class="letter-title">{{letterDestinationTitle}}</div>
+			<div class="letter" id="dest-letter-0"></div>
+			<div class="letter" id="dest-letter-1"></div>
+			<div class="letter" id="dest-letter-2"></div>
+			<div class="letter" id="dest-letter-3"></div>
+			<div class="letter" id="dest-letter-4"></div>
+			<div class="letter" id="dest-letter-5"></div>
+			<div class="letter" id="dest-letter-6"></div>
+			<div class="letter" id="dest-letter-7"></div>
+			<div class="letter" id="dest-letter-8"></div>
+			<div class="letter" id="dest-letter-9"></div>
+			<div class="letter" id="dest-letter-10"></div>
+			<div class="letter" id="dest-letter-11"></div>
+			<div class="letter" id="dest-letter-12"></div>
+			<div class="letter" id="dest-letter-13"></div>
+			<div class="letter" id="dest-letter-14"></div>
+			<div class="letter" id="dest-letter-15"></div>
+			<div class="letter" id="dest-letter-16"></div>
+			<div class="letter" id="dest-letter-17"></div>
+			<div class="letter" id="dest-letter-18"></div>
+			<div class="letter" id="dest-letter-19"></div>
+		</div>
+
+		<div id="shuffled" class="letter_container">
+			<div class="letter-title">{{letterShuffledTitle}}</div>
+			<div class="letter" id="shuffled-letter-0" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-1" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-2" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-3" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-4" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-5" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-6" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-7" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-8" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-9" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-10" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-11" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-12" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-13" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-14" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-15" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-16" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-17" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-18" draggable="true"></div>
+			<div class="letter" id="shuffled-letter-19" draggable="true"></div>
+		</div>
+	</div>
+
+	<hr />
+
+	<div id="images-and-words">
+		<div id="choose-images" class="btn btn-primary">{{imagesAndWordsTitle}}</div>
+
+		<div id="shuffled-images" class="image_container">
+			<div class="images-words-title">{{imagesAndWordsImageTitle}}</div>
+			<div class="row">
+				<div class="image col" id="img-0"></div>
+				<div class="image col" id="img-1"></div>
+				<div class="image col" id="img-2"></div>
+			</div>
+			<div class="row">
+				<div class="image col" id="img-3"></div>
+				<div class="image col" id="img-4"></div>
+				<div class="image col" id="img-5"></div>
+			</div>
+			<div class="row">
+				<div class="image col" id="img-6"></div>
+				<div class="image col" id="img-7"></div>
+				<div class="image col" id="img-8"></div>
+				<div class="image col" id="img-9"></div>
+			</div>
+		</div>
+
+		<div id="shuffled-images-words" class="word_container">
+			<div class="images-words-title">{{imagesAndWordsWordTitle}}</div>
+			<div class="row">
+				<div class="word col" id="word-0" draggable="true"></div>
+				<div class="word col" id="word-1" draggable="true"></div>
+				<div class="word col" id="word-2" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="word col" id="word-3" draggable="true"></div>
+				<div class="word col" id="word-4" draggable="true"></div>
+				<div class="word col" id="word-5" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="word col" id="word-6" draggable="true"></div>
+				<div class="word col" id="word-7" draggable="true"></div>
+				<div class="word col" id="word-8" draggable="true"></div>
+				<div class="word col" id="word-9" draggable="true"></div>
+			</div>
+		</div>
+	</div>
+
+	<hr />
+
+	<div id="word-shuffle">
+		<div id="choose-words" class="btn btn-primary">{{wordsTitle}}</div>
+
+		<div id="shuffled-model-words" class="image_container">
+
+			<div class="words-title">{{wordsModelTitle}}</div>
+			<div class="row">
+				<div class="word col" id="model-word-0"></div>
+				<div class="word col" id="model-word-1"></div>
+				<div class="word col" id="model-word-2"></div>
+			</div>
+			<div class="row">
+				<div class="word col" id="model-word-3"></div>
+				<div class="word col" id="model-word-4"></div>
+				<div class="word col" id="model-word-5"></div>
+			</div>
+			<div class="row">
+				<div class="word col" id="model-word-6"></div>
+				<div class="word col" id="model-word-7"></div>
+				<div class="word col" id="model-word-8"></div>
+				<div class="word col" id="model-word-9"></div>
+			</div>
+		</div>
+
+		<div id="shuffled-words" class="word_container">
+			<div class="words-title">{{wordsShuffledTitle}}</div>
+			<div class="row">
+				<div class="word col" id="shuffled-word-0" draggable="true"></div>
+				<div class="word col" id="shuffled-word-1" draggable="true"></div>
+				<div class="word col" id="shuffled-word-2" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="word col" id="shuffled-word-3" draggable="true"></div>
+				<div class="word col" id="shuffled-word-4" draggable="true"></div>
+				<div class="word col" id="shuffled-word-5" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="word col" id="shuffled-word-6" draggable="true"></div>
+				<div class="word col" id="shuffled-word-7" draggable="true"></div>
+				<div class="word col" id="shuffled-word-8" draggable="true"></div>
+				<div class="word col" id="shuffled-word-9" draggable="true"></div>
+			</div>
+		</div>
+	</div>
+
+	<hr />
+
+	<div id="images-and-images">
+		<div id="choose-images-images" class="btn btn-primary">{{imagesAndImagesTitle}}</div>
+
+		<div id="shuffled-images-images-a" class="image_container">
+			<div class="images-images-title">{{imagesAndImagesATitle}}</div>
+			<div class="row">
+				<div class="image col" id="imga-0"></div>
+				<div class="image col" id="imga-1"></div>
+				<div class="image col" id="imga-2"></div>
+			</div>
+			<div class="row">
+				<div class="image col" id="imga-3"></div>
+				<div class="image col" id="imga-4"></div>
+				<div class="image col" id="imga-5"></div>
+			</div>
+			<div class="row">
+				<div class="image col" id="imga-6"></div>
+				<div class="image col" id="imga-7"></div>
+				<div class="image col" id="imga-8"></div>
+				<div class="image col" id="imga-9"></div>
+			</div>
+		</div>
+
+		<div id="shuffled-images-images-b" class="image_container">
+			<div class="images-images-title">{{imagesAndImagesBTitle}}</div>
+			<div class="row">
+				<div class="image-text col" id="imgb-0" draggable="true"></div>
+				<div class="image-text col" id="imgb-1" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="image-text col" id="imgb-2" draggable="true"></div>
+				<div class="image-text col" id="imgb-3" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="image-text col" id="imgb-4" draggable="true"></div>
+				<div class="image-text col" id="imgb-5" draggable="true"></div>
+			</div>
+			<div class="row">
+				<div class="image-text col" id="imgb-6" draggable="true"></div>
+				<div class="image-text col" id="imgb-7" draggable="true"></div>
+				<div class="image-text col" id="imgb-8" draggable="true"></div>
+				<div class="image-text col" id="imgb-9" draggable="true"></div>
+			</div>
+		</div>
+	</div>
+</div>

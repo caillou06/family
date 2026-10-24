@@ -1,0 +1,178 @@
+[
+    {
+        "words": [
+            {
+                "name": "La",
+                "order": 0
+            },
+            {
+                "name": "voiture",
+                "order": 1
+            },
+            {
+                "name": "de",
+                "order": 2
+            },
+            {
+                "name": "course",
+                "order": 3
+            },
+            {
+                "name": "est",
+                "order": 4
+            },
+            {
+                "name": "la",
+                "order": 5
+            },
+            {
+                "name": "4ème",
+                "order": 6
+            }
+        ], "image":"web_images/La voiture de course est la 4ème.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "La",
+                "order": 0
+            },
+            {
+                "name": "voiture",
+                "order": 1
+            },
+            {
+                "name": "de",
+                "order": 2
+            },
+            {
+                "name": "police",
+                "order": 3
+            },
+            {
+                "name": "est",
+                "order": 4
+            },
+            {
+                "name": "la",
+                "order": 5
+            },
+            {
+                "name": "5ème",
+                "order": 6
+            }
+        ], "image":"web_images/La voiture de police est la 5ème.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "L'",
+                "order": 0
+            },
+            {
+                "name": "ambulance",
+                "order": 1
+            },
+            {
+                "name": "est",
+                "order": 2
+            },
+            {
+                "name": "la",
+                "order": 3
+            },
+            {
+                "name": "2ème",
+                "order": 4
+            }
+        ], "image":"web_images/L'ambulance est la 2ème.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Le",
+                "order": 0
+            },
+            {
+                "name": "bus",
+                "order": 1
+            },
+            {
+                "name": "scolaire",
+                "order": 2
+            },
+            {
+                "name": "est",
+                "order": 3
+            },
+            {
+                "name": "le",
+                "order": 4
+            },
+            {
+                "name": "1er",
+                "order": 5
+            }
+        ], "image":"web_images/Le bus scolaire est le 1er.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Le",
+                "order": 0
+            },
+            {
+                "name": "camion",
+                "order": 1
+            },
+            {
+                "name": "de",
+                "order": 2
+            },
+            {
+                "name": "pompier",
+                "order": 3
+            },
+            {
+                "name": "est",
+                "order": 4
+            },
+            {
+                "name": "le",
+                "order": 5
+            },
+            {
+                "name": "6ème",
+                "order": 6
+            }
+        ], "image":"web_images/Le camion de pompier est le 6ème.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Le",
+                "order": 0
+            },
+            {
+                "name": "camion",
+                "order": 1
+            },
+            {
+                "name": "poubelle",
+                "order": 2
+            },
+            {
+                "name": "est",
+                "order": 3
+            },
+            {
+                "name": "le",
+                "order": 4
+            },
+            {
+                "name": "7ème",
+                "order": 5
+            }
+        ], "image":"web_images/Le camion poubelle est le 7ème.jpg"
+    }
+]

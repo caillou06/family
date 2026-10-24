@@ -1,0 +1,170 @@
+[
+    {
+        "words": [
+            {
+                "name": "Paulette",
+                "order": 0
+            },
+            {
+                "name": "la",
+                "order": 1
+            },
+            {
+                "name": "poule",
+                "order": 2
+            },
+            {
+                "name": "a",
+                "order": 3
+            },
+            {
+                "name": "5",
+                "order": 4
+            },
+            {
+                "name": "oeufs",
+                "order": 5
+            }
+        ], "image":"web_images/paulette5oeufs.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Gertrude",
+                "order": 0
+            },
+            {
+                "name": "la",
+                "order": 1
+            },
+            {
+                "name": "truie",
+                "order": 2
+            },
+            {
+                "name": "a",
+                "order": 3
+            },
+            {
+                "name": "3",
+                "order": 4
+            },
+            {
+                "name": "porcelets",
+                "order": 5
+            }
+        ], "image":"web_images/gertrude3porcelets.png"
+    },
+    {
+        "words": [
+            {
+                "name": "Noémi",
+                "order": 0
+            },
+            {
+                "name": "la",
+                "order": 1
+            },
+            {
+                "name": "brebis",
+                "order": 2
+            },
+            {
+                "name": "a",
+                "order": 3
+            },
+            {
+                "name": "2",
+                "order": 4
+            },
+            {
+                "name": "agneaux",
+                "order": 5
+            }
+        ], "image":"web_images/Noemi2agneaux.png"
+    },
+    {
+        "words": [
+            {
+                "name": "Valentine",
+                "order": 0
+            },
+            {
+                "name": "la",
+                "order": 1
+            },
+            {
+                "name": "vache",
+                "order": 2
+            },
+            {
+                "name": "a",
+                "order": 3
+            },
+            {
+                "name": "1",
+                "order": 4
+            },
+            {
+                "name": "veau",
+                "order": 5
+            }
+        ], "image":"web_images/Valentine1veau.png"
+    },
+    {
+        "words": [
+            {
+                "name": "Jeanne",
+                "order": 0
+            },
+            {
+                "name": "la",
+                "order": 1
+            },
+            {
+                "name": "cane",
+                "order": 2
+            },
+            {
+                "name": "a",
+                "order": 3
+            },
+            {
+                "name": "4",
+                "order": 4
+            },
+            {
+                "name": "canetons",
+                "order": 5
+            }
+        ], "image":"web_images/Jeanne4canetons.png"
+    },
+    {
+        "words": [
+            {
+                "name": "Minouche",
+                "order": 0
+            },
+            {
+                "name": "la",
+                "order": 1
+            },
+            {
+                "name": "chienne",
+                "order": 2
+            },
+            {
+                "name": "a",
+                "order": 3
+            },
+            {
+                "name": "6",
+                "order": 4
+            },
+            {
+                "name": "chiots",
+                "order": 5
+            }
+        ], "image":"web_images/Minouche6chiots.png"
+    }
+]

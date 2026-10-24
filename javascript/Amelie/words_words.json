@@ -1,0 +1,154 @@
+[
+    {
+        "words": [
+            {
+                "name": "Amélie",
+                "order": 0
+            },
+            {
+                "name": "a",
+                "order": 1
+            },
+            {
+                "name": "une",
+                "order": 2
+            },
+            {
+                "name": "bouée",
+                "order": 3
+            },
+            {
+                "name": "et",
+                "order": 4
+            },
+            {
+                "name": "un",
+                "order": 5
+            },
+            {
+                "name": "canard",
+                "order": 6
+            }
+        ], "image":"web_images/Amélie/Amélie a une bouée et un canard small.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Amélie",
+                "order": 0
+            },
+            {
+                "name": "est",
+                "order": 1
+            },
+            {
+                "name": "heureuse",
+                "order": 2
+            }
+        ], "image":"web_images/Amélie/Amélie est heureuse small.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Amélie",
+                "order": 0
+            },
+            {
+                "name": "joue",
+                "order": 1
+            },
+            {
+                "name": "avec",
+                "order": 2
+            },
+            {
+                "name": "le",
+                "order": 3
+            },
+            {
+                "name": "poisson",
+                "order": 4
+            },
+            {
+                "name": "dans",
+                "order": 5
+            },
+            {
+                "name": "la",
+                "order": 6
+            },
+            {
+                "name": "mer",
+                "order": 7
+            }
+        ], "image":"web_images/Amélie/Amélie joue avec le poisson dans la mer small.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Le",
+                "order": 0
+            },
+            {
+                "name": "poisson",
+                "order": 1
+            },
+            {
+                "name": "est",
+                "order": 2
+            },
+            {
+                "name": "dans",
+                "order": 3
+            },
+            {
+                "name": "le",
+                "order": 4
+            },
+            {
+                "name": "bocal",
+                "order": 5
+            }
+        ], "image":"web_images/Amélie/Le poisson est dans le bocal small.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Le",
+                "order": 0
+            },
+            {
+                "name": "poisson",
+                "order": 1
+            },
+            {
+                "name": "est",
+                "order": 2
+            },
+            {
+                "name": "heureux",
+                "order": 3
+            }
+        ], "image":"web_images/Amélie/Le poisson est heureux small.jpg"
+    },
+    {
+        "words": [
+            {
+                "name": "Le",
+                "order": 0
+            },
+            {
+                "name": "poisson",
+                "order": 1
+            },
+            {
+                "name": "est",
+                "order": 2
+            },
+            {
+                "name": "triste",
+                "order": 3
+            }
+        ], "image":"web_images/Amélie/Le poisson est triste small.jpg"
+    }
+]

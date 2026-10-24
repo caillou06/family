@@ -1,0 +1,9 @@
+[
+{"name": "Home","href": "#/Home","label":"Accueil"},
+{"name": "School","href": "#/School","label":"Jeux Ecole"},
+{"name": "School2","href": "#/School2","label":"Jeux Ecole Suite"},
+{"name": "SchoolAmelie","href": "#/SchoolAmelie","label":"Jeux Ecole Amélie"},
+{"name": "SchoolAmelie","href": "#/SchoolAmelie2","label":"Jeux Ecole Amélie Suite"},
+{"name": "Strava","href": "https://www.strava.com/oauth/authorize?client_id=21716&redirect_uri=http%3A%2F%2Ftacailleolivier.ddns.net%2F%23%2FStrava&response_type=code&scope=activity:read_all","label":"Activités Strava"},
+{"name": "PhotoAlbum","href": "#/PhotoAlbum","label":"Album Photo"}
+]

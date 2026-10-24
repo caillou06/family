@@ -1,0 +1,32 @@
+[
+    {
+        "image": "web_images/ambulance.png",
+        "word": "L'ambulance",
+        "category": "1"
+    },
+    {
+        "image": "web_images/bus scolaire.png",
+        "word": "Le bus scolaire",
+        "category": "2"
+    },
+    {
+        "image": "web_images/camion de pompiers.png",
+        "word": "Le camion de pompier",
+        "category": "1"
+    },
+    {
+        "image": "web_images/camion poubelle.png",
+        "word": "Le camion poubelle",
+        "category": "2"
+    },
+    {
+        "image": "web_images/voiture de course.png",
+        "word": "La voiture de course",
+        "category": "3"
+    },
+    {
+        "image": "web_images/voiture de police.png",
+        "word": "La voiture de police",
+        "category": "3"
+    }
+]

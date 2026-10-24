@@ -1,0 +1,8 @@
+[
+{"image_a":{"image":"web_images/Paulette.jpg","word":"Paulette la poule"},"image_b":{"image":"web_images/Paulette2_small.png","word":"Paulette la poule"}},
+{"image_a":{"image":"web_images/Gertrude.jpg","word":"Gertrude la truie"},"image_b":{"image":"web_images/Gertrude2_small.png","word":"Gertrude la truie"}},
+{"image_a":{"image":"web_images/Minouche.jpg","word":"Minouche la chienne"},"image_b":{"image":"web_images/Minouche2.png","word":"Minouche la chienne"}},
+{"image_a":{"image":"web_images/Noemi.jpg","word":"Noémi la brebis"},"image_b":{"image":"web_images/Noemi2_small.png","word":"Noémi la brebis"}},
+{"image_a":{"image":"web_images/Valentine.jpg","word":"Valentine la vache"},"image_b":{"image":"web_images/Valentine2_small.png","word":"Valentine la vache"}},
+{"image_a":{"image":"web_images/Jeanne.jpg","word":"Jeanne la cane"},"image_b":{"image":"web_images/Jeanne2_small.png","word":"Jeanne la cane"}}
+]

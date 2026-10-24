@@ -1,0 +1,48 @@
+<div class="strava">
+	<span style="font-weight:bold">Get your activities from Strava (from Date to now or from Page number)</span>
+	<div class="strava-form">
+		<div class="row">
+			<div class="col-md-6">
+				<label for="from_date">From Date:</label>
+				<input name="from_date" class="datepicker form-control" data-date-format="mm/dd/yyyy">
+			</div>
+			<div class="col-md-6">
+				<label for="from_page">From Page:</label>
+				<input name="from_page" class="numeric form-control">
+			</div>
+		</div>
+	</div>
+	<div class="strava-activities" id="myActivities" ng-show="activities.length > 0">
+		
+		<span style="font-weight:bold; display:block;">Nb Activites: {{activities.length}}</span>
+		<button export-to-csv>Download</button>
+		<div class="container">
+			<div class="row" style="font-weight:bold;">
+					<div class="col-md-2">Name</div>
+					<div class="col-md-1">Date</div>
+					<div class="col-md-1">Distance</div>
+					<div class="col-md-1">Time</div>
+					<div class="col-md-1">Speed</div>
+					<div class="col-md-1">Elevation</div>
+					<div class="col-md-1">Difficulty</div>
+					<div class="col-md-1">Gear</div>
+					<div class="col-md-1">Watts</div>
+					<div class="col-md-1">Temperature</div>
+					<div class="col-md-1">Speed</div>
+			</div>
+			<div class="row" ng-repeat="activity in activities">
+					<div class="col-md-2">{{activity.name}}</div>
+					<div class="col-md-1">{{activity.start_date}}</div>
+					<div class="col-md-1">{{(activity.distance/1000).toFixed(2)}}</div>
+					<div class="col-md-1">{{activity.moving_time}}</div>
+					<div class="col-md-1">{{(activity.distance*3.6/activity.moving_time).toFixed(1)}}</div>
+					<div class="col-md-1">{{activity.total_elevation_gain}}</div>
+					<div class="col-md-1">{{(activity.total_elevation_gain/(activity.distance/1000)).toFixed(0)}}</div>
+					<div class="col-md-1">{{activity.gear_name}}</div>
+					<div class="col-md-1">{{activity.average_watts}}</div>
+					<div class="col-md-1">{{activity.average_temp}}</div>
+					<div class="col-md-1">{{(activity.max_speed*3.6).toFixed(2)}}</div>
+			</div>
+		</div>
+	</div>
+</div>
