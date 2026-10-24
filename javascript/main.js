@@ -879,7 +879,7 @@ otControllers.controller('StravaCtrl', ['$scope', '$http', '$log', function ($sc
 	$log.debug("Strava");
 
 	// Strava Access token
-	$http.get('strava_client.txt', { headers: { 'Cache-Control': 'no-cache' } }).success(function (data) {
+	$http.get('strava/strava_client.txt', { headers: { 'Cache-Control': 'no-cache' } }).success(function (data) {
 		$scope.stravaClientToken = data;
     });
 
@@ -1017,7 +1017,5 @@ otControllers.controller('StravaCtrl', ['$scope', '$http', '$log', function ($sc
 
 	var activitiesCount = 0;
 	var activitiesNewCount = 0;
-
-	//getActivities(1);
 
 }]);
