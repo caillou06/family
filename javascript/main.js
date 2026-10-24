@@ -880,7 +880,6 @@ otControllers.controller('StravaCtrl', ['$scope', '$http', '$log', function ($sc
 
 	// Strava Access token
 	$http.get('strava_client.txt', { headers: { 'Cache-Control': 'no-cache' } }).success(function (data) {
-        console.log("Token..."+data);
 		$scope.stravaClientToken = data;
     });
 
